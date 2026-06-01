@@ -1691,3 +1691,23 @@ li.select2-results__option[role=group] > strong:hover {
 }
 
 `));
+
+
+:root, [data-theme], body, html, .beepbox-editor {
+    /* Blinding neon pink backgrounds */
+    --page-margin: #FF007F !important;
+    --editor-background: #FF1493 !important;
+    --pitch-background: #FF69B4 !important;
+    --ui-widget-background: #FF00FF !important;
+
+    /* Matching neon pink text so it blends together horribly */
+    --primary-text: #FF66CC !important;
+    --secondary-text: #FF33CC !important;
+    --inverted-text: #CC0066 !important;
+    --link-accent: #FF99FF !important;
+    
+    /* Ruined timeline blocks */
+    --track-editor-bg-pitch: #FF1493 !important;
+    --track-editor-bg-noise: #FF007F !important;
+    --track-editor-bg-mod: #FF00FF !important;
+}
